@@ -13,5 +13,7 @@ name = "something something"
 print (name)
 # F STRINGS
 print (f"my name is {name}")
-user = input("what is your name?")
-print ("your name is {user}")
+#user input stuff
+user = input("what is your username?")
+print (f"your name is {user}")
+age = input(f"how old are you?")
